@@ -1,0 +1,124 @@
+body {
+  background-image: url("http://www.examiner.com/images/blog/wysiwyg/image/paristink.jpg");
+  background-repeat: no-repeat;
+  background-color: #E9FFFB;
+}
+
+#pupilleft,
+#pupilright,
+#dogpupilleft,
+#dogpupilright {
+  position: relative;
+  background: #000000;
+  border-radius: 50%;
+}
+
+#eyeleft,
+#eyeright,
+#dogeyeleft,
+#dogeyeright {
+  position: absolute;
+  background: #FFFFFF;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#pupilleft {
+  width: 18px;
+  height: 18px;
+}
+
+#eyeleft {
+  width: 35px;
+  height: 35px;
+  left: 213px;
+  top: 72px;
+}
+
+#pupilright{
+  width: 18px;
+  height: 18px;
+}
+
+#eyeright {
+  width: 35px;
+  height: 35px;
+  left: 268px;
+  top: 75px;
+}
+
+#dogpupilleft {
+  width: 14px;
+  height: 14px;
+}
+
+#dogeyeleft
+{
+  width: 25px;
+  height: 25px;
+  left: 175px;
+  top: 261px;
+}
+
+#dogpupilright{
+  width: 14px;
+  height: 14px;
+}
+
+#dogeyeright {
+  width: 25px;
+  height: 25px;
+  left: 210px;
+  top: 259px;
+}
+
+.bunnyeyes{
+    width: 194px;
+    /*height: 193px;*/
+    margin-top: -70px;
+}
+
+
+#rabbit-eye-left-pupil,
+#rabbit-eye-right-pupil {
+  position: relative;
+  background: #000000;
+  border-radius: 50%;
+}
+
+#rabbit-eye-left,
+#rabbit-eye-right {
+    position: relative;
+    background: #FFFFFF;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 32px;
+    height: 52px;
+}
+
+#rabbit-eye-left-pupil{
+    width: 10px;
+    height: 15px;
+}
+
+#rabbit-eye-left{
+    top: 112px;
+    left: 46px;
+}
+
+#rabbit-eye-right-pupil{
+    width: 10px;
+    height: 15px;
+}
+
+#rabbit-eye-right{
+    top: 60px;
+    left: 117px;
+}
+
+.bunny-head{
+    width: 194px;
+    height: 193px;
+    top: -70px;
+    position: absolute;
+}

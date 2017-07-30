@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="UTF-8" />
+        <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+        <title>Cuteosphere.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <link rel="stylesheet" type="text/css" href="eyes/eyes.css" />
+    </head>
+
+    <body>
+        <div class="wrap" ng-controller="mainController">
+            <nav>
+                <ul>
+                    <li><a href="#home" du-smooth-scroll du-scrollspy>Home</a></li>
+                    <li><a href="#about" du-smooth-scroll du-scrollspy>About</a></li>
+
+                    <li class="hidden-xs">
+                        <div class="bunnyeyes">
+                            <div id="rabbit-eye-left">
+                                <div id="rabbit-eye-left-pupil"></div>
+                            </div>
+                            <div id="rabbit-eye-right">
+                                <div id="rabbit-eye-right-pupil"></div>
+                            </div>
+                            <div class="bunny-head">
+                                <img src="./images/wobsite-bun.png" />
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#gallery1" du-smooth-scroll du-scrollspy>Gallery 1</a></li>
+                    <li><a href="#gallery2" du-smooth-scroll du-scrollspy>Gallery 2</a></li>
+                </ul>
+            </nav>
+
+            <section id="home">
+
+                <h1>Cuteosphere.com</h1>
+
+                <h2>Hello.</h2>
+                <p>Bacon ipsum dolor sit amet sausage tail capicola ground round hamburger ham hock. Short ribs pig andouille meatball, pastrami tri-tip fatback ham hock shank kielbasa swine. Rump pancetta jerky kielbasa doner beef ribs tongue hamburger strip steak drumstick andouille shoulder shank flank. Swine drumstick meatball pig beef sausage strip steak.</p>
+
+                <img src="http://lorempixel.com/1000/500/" alt="" />
+            </section>
+
+            <section id="about">
+                <h2>Section 2</h2>
+                <p>Bacon strip steak ground round, tongue pastrami short ribs pork chop venison turducken sausage sirloin. Flank chicken pork chop capicola turkey turducken cow pork loin biltong meatball drumstick pancetta filet mignon ground round fatback. Ham hock jerky short ribs brisket. Meatloaf shoulder pork chop capicola, sirloin swine pig pork. Jerky ribeye hamburger pork loin sirloin kevin bresaola boudin chuck flank. Ham hock pork belly chicken jerky rump bresaola.</p>
+            </section>
+
+            <section id="gallery1">
+                <h2>Gallery 1</h2>
+
+            </section>
+
+            <section id="gallery2">
+                <h2>Section 4</h2>
+                <img src="http://lorempixel.com/1000/600/" alt="" />
+
+                <p>Shoulder cow tenderloin chuck, pork chop jerky doner leberkas. Chuck sausage hamburger, kevin beef pork chop pork shoulder ground round ball tip turducken flank. Bresaola tri-tip meatloaf, salami venison tail pig shank shankle jowl sausage brisket cow biltong turducken. Swine turducken hamburger ball tip short loin prosciutto kevin jowl tri-tip. Doner meatloaf pork brisket.</p>
+            </section>
+
+            <a href="#home" du-smooth-scroll>Back to the top</a>
+
+            <footer>
+            </footer>
+        </div>
+
+        <script src="node_modules/angular/angular.js"></script>
+        <script src="node_modules/angular-scroll/angular-scroll.js"></script>
+        <script src="js/module.js"></script>
+        <script src="js/controller.js"></script>
+        <script src="eyes/eyes.js"></script>
+    </body>
+</html>
