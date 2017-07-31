@@ -1,1 +1,1 @@
-angular.module('myApp', ['duScroll']);
+angular.module('myApp', ['duScroll', 'ngAnimate', 'thatisuday.ng-image-gallery']);
