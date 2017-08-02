@@ -60,8 +60,7 @@ a.active {
 
 section {
     min-height: 100vh;
-    text-align: center;
-    padding: 50px 30px 30px 30px;
+    padding: 58px 30px 30px 30px;
 }
 
 #home {
@@ -91,4 +90,10 @@ button {
     background: #00AC7F;
     color: #fff;
     cursor: pointer;
+}
+
+.gallery-container:{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
 }

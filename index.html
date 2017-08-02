@@ -6,6 +6,8 @@
         <title>Cuteosphere.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <link rel="stylesheet" type="text/css" href="node_modules/ng-image-gallery/dist/ng-image-gallery.css" />
+
         <link rel="stylesheet" type="text/css" href="css/style.css" />
 
         <link rel="stylesheet" type="text/css" href="eyes/eyes.css" />
@@ -53,14 +55,45 @@
 
             <section id="gallery1">
                 <h2>Gallery 1</h2>
-
+                <div class="gallery-container" style="width: 65%; margin-left: auto; margin-right: auto;">
+                    <ng-image-gallery
+                        images="images"
+                        methods="methods"
+                        thumbnails="true"
+                        thumb-size="250"
+                        inline="false"
+                        bubbles="true"
+                        bubble-size="10"
+                        img-bubbles="false"
+                        img-anim="fadeup"
+                        conf="conf"
+                        on-open="opened();"
+                        on-close="closed();"
+                        on-delete="delete(img, cb)">
+                    </ng-image-gallery>
+                </div>
             </section>
 
             <section id="gallery2">
                 <h2>Section 4</h2>
-                <img src="http://lorempixel.com/1000/600/" alt="" />
 
-                <p>Shoulder cow tenderloin chuck, pork chop jerky doner leberkas. Chuck sausage hamburger, kevin beef pork chop pork shoulder ground round ball tip turducken flank. Bresaola tri-tip meatloaf, salami venison tail pig shank shankle jowl sausage brisket cow biltong turducken. Swine turducken hamburger ball tip short loin prosciutto kevin jowl tri-tip. Doner meatloaf pork brisket.</p>
+                <div class="gallery-container" style="width: 65%; margin-left: auto; margin-right: auto;">
+                    <ng-image-gallery
+                        images="images"
+                        methods="methods"
+                        thumbnails="true"
+                        thumb-size="250"
+                        inline="false"
+                        bubbles="true"
+                        bubble-size="10"
+                        img-bubbles="false"
+                        img-anim="fadeup"
+                        conf="conf"
+                        on-open="opened();"
+                        on-close="closed();"
+                        on-delete="delete(img, cb)">
+                    </ng-image-gallery>
+                </div>
             </section>
 
             <a href="#home" du-smooth-scroll>Back to the top</a>
@@ -71,6 +104,8 @@
 
         <script src="node_modules/angular/angular.js"></script>
         <script src="node_modules/angular-scroll/angular-scroll.js"></script>
+        <script src="node_modules/angular-animate/angular-animate.js"></script>
+        <script src="node_modules/ng-image-gallery/dist/ng-image-gallery.js"></script>
         <script src="js/module.js"></script>
         <script src="js/controller.js"></script>
         <script src="eyes/eyes.js"></script>

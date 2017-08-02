@@ -1,19 +1,29 @@
 {
-  "name": "cuteosphere",
+  "name": "cuteosphere.com",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web Gallery",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyro-dragon/cuteosphere.com.git"
+  },
+  "author": "Large Scale Industries (Rob G. Pettefar)",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyro-dragon/cuteosphere.com/issues"
+  },
+  "homepage": "https://github.com/pyro-dragon/cuteosphere.com#readme",
   "devDependencies": {
-    "angular": "^1.6.4",
+    "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
     "angular-scroll": "^1.0.2",
     "angular-ui-bootstrap": "^2.5.0",
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "ng-image-gallery": "^2.1.2"
   }
 }
