@@ -1,7 +1,9 @@
 angular.module('myApp')
-.controller('mainController', function($scope, $document)
+.controller('mainController', function($scope, $document, comicsConfig)
 {
     $scope.test = 444;
+
+    $scope.comics = comicsConfig;
 
     $scope.images = [
     	{
