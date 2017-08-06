@@ -1,11 +1,11 @@
 <div class="comics-container">
-    <div class="comic-frame" ng-repeat="comic in comics">
+    <div class="comic-frame" ng-repeat="comic in comics | orderBy: '-lastUpdated'">
         <p class="comic-title">Title: {{comic.name}}</p>
         <div class="image-frame">
             <img src="{{comic.thumbnail}}" />
         </div>
         <p>
-            Published: {{comic.lastUpdated}}
+            Published: {{comic.lastUpdated | date: dMyyy}}
         </p>
     </div>
 </div>

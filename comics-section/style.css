@@ -1,5 +1,13 @@
+.comics-container{
+    text-align: center;
+    display: flex;
+    height: 100%;
+}
+
 .comic-frame{
     text-align: center;
+    width:175px;
+    margin: auto;
 }
 
 .image-frame{

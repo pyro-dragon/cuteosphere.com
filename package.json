@@ -23,6 +23,8 @@
     "angular-ui-bootstrap": "^2.5.0",
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-server-livereload": "^1.9.2",
     "jquery": "^3.2.1",
     "ng-image-gallery": "^2.1.2"
   }
